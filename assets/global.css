@@ -1,0 +1,26 @@
+@import url('font/stylesheet.css');
+
+.descr {width: 500px; position: absolute; left: 32%; top: 22%;}
+h3 {font-family: AngelinaRegular; font-size: 34px; text-align: center;}
+p {font-size: 14px; font-style: italic; font-family: Georgia; line-height: 20px; margin: 10px 0;} 
+
+html {}
+
+body {background: url(img/noise.png) repeat;}
+
+.search {position: fixed; top: 46%; left: 40%; }
+.search input {padding: 7px; font-size: 14px; color: #777; border: 1px solid #AAA;}
+.search button {border: 1px solid #AAA; padding: 7px 10px; color: #888; background: white; cursor: pointer;}
+
+
+#lastfm {width: 200px; background: #232323; color: #BBC; font-family: Segoe UI; font-size: 13px; overflow: auto; display: none; float: left;}
+#lastfm .track {border-bottom: 1px solid black; border-top: 1px solid #333; padding: 4px 8px;}
+#lastfm .track:hover {color: #ccc; cursor: pointer;}
+#lastfm .track.current {color: #fff;}
+
+#youtube {position: fixed; top: 30%; left: -9000px; height: 360px;}
+
+
+#similar {width: 167px; float: right; background: #232323; color: #BBC; font-family: Segoe UI; font-size: 13px; overflow-x:hidden; overflow-y: auto; display: none; }
+#similar .artist { background-repeat:no-repeat; background-size:cover; height:150px;  width:150px; cursor: pointer;}
+#similar .artist div {color: #111; background: rgba(255, 255, 255, 0.8); text-align: left; font-size: 13px; position: relative; top: 20px; right: -150px; padding: 4px 6px; float: right;}
